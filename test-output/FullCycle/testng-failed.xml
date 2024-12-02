@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FullCycle]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.rahulshetty.Utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="End-To-End FrameWork Test(failed)">
+    <classes>
+      <class name="org.rahulshetty.ProductPageTest">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="ProductTest_ValidationMsg"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.rahulshetty.ProductPageTest -->
+    </classes>
+  </test> <!-- End-To-End FrameWork Test(failed) -->
+</suite> <!-- Failed suite [FullCycle] -->

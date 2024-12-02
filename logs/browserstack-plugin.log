@@ -1,0 +1,21 @@
+16:10:25.688 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+16:10:25.696 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=FQrjNgVqmzurTxqZsSGz, groupId=com.browserstack, BROWSERSTACK_APP=bs://sample.app, BROWSERSTACK_FRAMEWORK=java, version=1.0, PROJECT_NAME=BrowserStack Sample, archetypeVersion=1.4, archetypeGroupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=johnmakar_ktUsa1, BUILD_NAME=browserstack build, BROWSERSTACK_SOURCE=java:appium-eclipse:v1.0.8]
+16:13:50.507 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:13:50.507 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:13:50.509 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumFrameWorkCloud
+16:13:50.511 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:13:50.511 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:13:50.513 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumFrameWorkCloud
+16:15:15.733 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:15:15.733 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:15:15.736 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Appium
+16:15:15.737 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:15:15.737 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:15:15.740 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Appium
+16:15:17.896 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:15:17.897 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:15:17.898 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/AppiumFrameWorkCloud
+16:15:17.899 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:15:17.899 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:15:17.901 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumFrameWorkCloud
+08:56:27.769 [Framework stop - Equinox Container: d8d518cb-b503-4949-b943-6c9beba41646] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
